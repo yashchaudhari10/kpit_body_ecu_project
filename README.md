@@ -82,21 +82,21 @@ Body-Control-ECU/
 
 ## Pin Connections
 
-Pin	Function	Description
-PA0	Motor IN1	Power window motor – H-bridge direction input 1
-PA1	Motor IN2	Power window motor – H-bridge direction input 2
-PA2	Liftgate IN3	Liftgate motor – H-bridge direction input 3
-PA3	Liftgate IN4	Liftgate motor – H-bridge direction input 4
-PA4	IR Sensor	Gesture / obstacle detection input
-PA8	EN1 (PWM)	Power window motor – speed control (PWM enable)
-PA9	EN2 (PWM)	Liftgate motor – speed control (PWM enable)
-PB12	LCD CS	ST7920 LCD – chip select (SPI)
-PB13	LCD CLK	ST7920 LCD – serial clock (SPI)
-PB14	LCD RST	ST7920 LCD – reset
-PB15	LCD SID	ST7920 LCD – serial data in (SPI)
-PC0	Window Switch	Push-button input – power window UP/DOWN
-PC1	Liftgate Switch	Push-button input – liftgate OPEN/CLOSE
-
+| **STM32 Pin** | **Function** | **Description** |
+|:-------------:|--------------|-----------------|
+| PA0 | Motor IN1 | Power window motor – H-bridge direction input 1 |
+| PA1 | Motor IN2 | Power window motor – H-bridge direction input 2 |
+| PA2 | Liftgate IN3 | Liftgate motor – H-bridge direction input 3 |
+| PA3 | Liftgate IN4 | Liftgate motor – H-bridge direction input 4 |
+| PA4 | IR Sensor | Gesture / obstacle detection input |
+| PA8 | EN1 (PWM) | Power window motor – Speed control (PWM enable) |
+| PA9 | EN2 (PWM) | Liftgate motor – Speed control (PWM enable) |
+| PB12 | LCD CS | ST7920 LCD – Chip Select (SPI) |
+| PB13 | LCD CLK | ST7920 LCD – Serial Clock (SPI) |
+| PB14 | LCD RST | ST7920 LCD – Reset |
+| PB15 | LCD SID | ST7920 LCD – Serial Data Input (SPI) |
+| PC0 | Window Switch | Push-button input – Power Window UP/DOWN |
+| PC1 | Liftgate Switch | Push-button input – Liftgate OPEN/CLOSE |
 
 ---
 
