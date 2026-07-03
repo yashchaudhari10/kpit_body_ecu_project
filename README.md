@@ -1,4 +1,3 @@
-﻿# kpit_body_ecu_project
 # Body Control ECU for Power Window and Liftgate Applications
 
 ## Overview
